@@ -1,0 +1,65 @@
+{
+  "name": "dap.github.io",
+  "version": "0.0.1",
+  "private": true,
+  "description": "Darshan Parsana personal webpage",
+  "homepage": "https://dap.github.io",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/d-a-p/dap.github.io.git"
+  },
+  "author": "Darshan Parsana",
+  "scripts": {
+    "watch": "webpack --watch",
+    "start": "webpack-dev-server --mode development --open",
+    "hs": "http-server",
+    "wp": "webpack",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "babel": {
+    "presets": [
+      [
+        "env",
+        {
+          "targets": {
+            "node": "current"
+          }
+        }
+      ],
+      "stage-2",
+      "react"
+    ],
+    "plugins": [
+      "dynamic-import-node"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/d-a-p/dap.github.io/issues"
+  },
+  "main": "index.js",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.28.11",
+    "gh-pages": "^1.2.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "mini-css-extract-plugin": "^0.4.1",
+    "react": "^16.4.1",
+    "react-dom": "^16.4.1",
+    "webpack": "^4.8.3",
+    "webpack-cli": "^3.0.8"
+  },
+  "dependencies": {
+    "npm": "^6.1.0"
+  }
+}
