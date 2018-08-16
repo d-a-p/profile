@@ -16,15 +16,14 @@ class Text extends React.Component{
     render(){
 
         const props = this.props,
-            {changeBGonHover, fs, dc, classes}=props;
+            {changeBGonHover, title='details', content, classes}=props;
 
         return(
             <div
-        className={cx('f_'+fs, classes)}
-        title={dc}
-        onMouseOver={changeBGonHover}
+        className={cx('f_', classes)}
+        title={title}
       >
-        {dc}
+        {content}
       </div>);
     }
 }

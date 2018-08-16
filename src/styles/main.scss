@@ -3,10 +3,56 @@
     color: green;
 }
 
+/////////////====================== font =====================/////////////////////
+
 .f-lg{
     font-size:2.5rem;
+
 }
 
 .f-ty{
     font-size: 0.5rem;
+}
+
+
+.ttl-heavy{
+  font-weight: bolder;
+}
+
+
+///////////======================== border ==========================//////////////////
+
+.ttl-b-bdr{
+    border-bottom: 1px solid;
+}
+
+
+
+/////////======================== padding ===========================/////////////////
+
+.pl{
+    padding-left: 0.3rem;
+}
+
+.pb{
+    padding-bottom: 0.3rem;
+}
+
+
+////////////================== margin ==============================/////////////////
+
+.ml{
+  margin-left: 0.3rem;
+}
+
+.mb{
+  margin-bottom: 0.3rem;
+}
+
+.mt{
+  margin-top: 0.3rem;
+}
+
+.mr{
+  margin-right: 0.3rem;
 }

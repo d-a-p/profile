@@ -1,13 +1,17 @@
 import React from 'react';
-import Text from './Text';
-import style from '../styles/main.scss';
-import {supported_font_size} from "../constants/constants";
+import Card from './Card'
+import style from '../styles/core..scss';
+import pData from "../_data/_pdata";
 
 
+const get_core_data = dataObj => (Object.keys(dataObj).map(key => ({title:key, content: dataObj[key]})));
+
+const upperFirst = string => string[0].toUpperCase() + string.slice(1);
 
 class HomePage extends React.Component{
     render(){
-        return(<Text classes="cr f-lg" dc="Under Development" />);
+        const data = get_core_data(pData.right_pdata);
+        return <Card data={upperFirst(data[0].content)} title={upperFirst(data[0].title)}/>;
     }
 }
 
