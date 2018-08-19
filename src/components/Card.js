@@ -16,15 +16,14 @@ class Card extends React.Component{
 
     render(){
         const {data, title, hideHeader, hideHeaderUL} = this.props;
-        console.log("data", data);
         return(<div className="wide full-width">
             {!hideHeader && (
-                <Header title={title} showHeaderUnderLine={!hideHeaderUL}/>
+                <Header className={cx('card-header')} title={title} showHeaderUnderLine={!hideHeaderUL}/>
             )}
-            <Text content={data} title={title} classes={cx('mt')}/>
+            <Text className={cx('card-text')} content={data} title={title} classes={cx('mt')}/>
         </div>);
     }
-
+me
 }
 
 export default Card;

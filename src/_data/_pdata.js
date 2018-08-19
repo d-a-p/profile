@@ -9,6 +9,22 @@ const head_card = {
 
 };
 
+const scroller_data = [
+	{
+		title: 'Darsan Parsana',
+		description: 'this is dap',
+		iname: 'dap_pp'
+	}, {
+		title: 'Frontend Developer',
+		description: 'dap, this is',
+		iname: 'triund'
+	},{
+		title: 'Machine Learning Engineer',
+		description: 'this is dap',
+		iname: 'dap_pp'
+	}
+];
+
 const right_pdata = {
      "about": "A Christian representation of God. Although usually thought of as intangible, and thus with no physical or visual form, many religions use images to represent their god in icons for art or worship. In monotheistic thought, God is conceived of as the Supreme Being and the principal object of faith.[3] The concept of God, as described by theologians, commonly includes the attributes of omniscience (all-knowing), omnipotence (unlimited power), omnipresence (present everywhere), and as having an eternal and necessary existence. Depending on one’s kind of theism, these attributes are used either in way of analogy, or in a literal sense as distinct properties of the God.",
     "skills":  {"cpp":5, "python":7, "javascript":8, "react":8},
@@ -22,4 +38,4 @@ const right_pdata = {
     ]
 };
 
-export default {head_card, right_pdata};
+export default {head_card, right_pdata, scroller_data};
