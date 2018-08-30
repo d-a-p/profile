@@ -38,6 +38,11 @@ module.exports = {
 				        fallback: 'file-loader'
 			        }
                 }]
+	        },{
+		        test: /\.svg$/,
+		        use: {
+			        loader: 'svg-sprite-loader'
+		        }
 	        }]
     },
     plugins: [

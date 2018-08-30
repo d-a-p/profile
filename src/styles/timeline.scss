@@ -1,3 +1,23 @@
 .dark-bcg{
   background-color: darkgray;
+
+  .vertical-timeline-element-icon{
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .icon{
+    //display: flex;
+    //align-self: center;
+
+    position: initial;
+    margin: auto;
+    width: 2.4rem;
+    height: 2.4rem;
+
+    fill: white;
+    stroke: white;
+    stroke-width: 0.3rem;
+  }
 }
+

@@ -1,6 +1,7 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import TimelineCard from './TimelineCard';
+import Icon from './Icon';
 import 'react-vertical-timeline-component/style.min.css';
 import '../styles/timeline.scss'
 
@@ -30,7 +31,8 @@ class TimelineRenderer extends React.Component{ //change timelinedata classname
 					className="vertical-timeline-element--work ml1"
 					date={axisdata.time}
 					position={axisdata.position}
-					iconStyle={{ background: 'rgb(33, 150, 243)', color: '#fff' }}
+					iconStyle={{ background: 'rgb(33, 150, 243)', color: axisdata.icnclr }}
+					icon={<Icon name={axisdata.icn} />}
 				>
 					<TimelineCard content={content}/>
 				</VerticalTimelineElement>)

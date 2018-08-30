@@ -9,16 +9,15 @@ import TimelineRenderer from "./TimelineRenderer";
 
 ///
 ///return [<Scroller content={pData.scroller_data}/>,
-///<Card data={upperFirst(data[0].content)} title={upperFirst(data[0].title)}/>    ];
+///<Card data={upperFirst(data[0].content)} title={upperFirst(data[0].title)}/> ,
+// <TimelineRenderer data={pData.timeline_data} />  ];
 
 class HomePage extends React.Component{
 
     render(){
 
         //const data = get_core_data(pData.right_pdata);
-	    return (<TimelineRenderer
-				data={pData.timeline_data}
-		    />);
+	    return (<TimelineRenderer data={pData.timeline_data} />);
     }
 }
 

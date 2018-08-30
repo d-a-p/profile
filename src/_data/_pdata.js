@@ -27,7 +27,7 @@ const scroller_data = [
 
 const timeline_data = [{
 	axisdata : {
-		icn:'university',
+		icn:'uni_cap',
 		icnclr: 'blue',
 		time:'2013-2017',
 		position:'left'
