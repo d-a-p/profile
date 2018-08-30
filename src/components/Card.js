@@ -23,7 +23,7 @@ class Card extends React.Component{
             <Text className={cx('card-text')} content={data} title={title} classes={cx('mt')}/>
         </div>);
     }
-me
+
 }
 
 export default Card;

@@ -1,0 +1,54 @@
+.timeline-card{
+  display:flex;
+  flex-flow: column;
+  background-color: white;
+
+  .tags{
+    display: flex;
+
+    .tag{
+      background-color: #ececec;
+      padding: 3px;
+      //font-weight: normal;
+      border-radius: 0.7rem;
+      border: 1px solid grey;
+      min-width: 2rem;
+      text-align: center;
+      margin: 2px;
+      margin-bottom: 0px;
+    }
+  }
+
+  .title{
+    margin: 0.7rem 0.4rem;
+  }
+
+  .text{
+    margin: 0.4rem;
+    margin-top: 0;
+  }
+
+  .links{
+    display: flex;
+    justify-content: flex-end;
+
+    .link{
+      cursor: pointer;
+      text-decoration: none;
+      background-color: lightgrey;
+      padding: 0.4rem;
+      font-weight: bold;
+      border-radius: 0.3rem;
+      min-width: 2rem;
+      text-align: center;
+      margin: 2px;
+      margin-bottom: 0px;
+      color: black;
+
+      &:active{
+        background-color: grey;
+        color: white;
+      }
+    }
+  }
+}
