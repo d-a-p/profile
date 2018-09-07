@@ -16,11 +16,11 @@ class Text extends React.Component{
     render(){
 
         const props = this.props,
-            {changeBGonHover, title='details', content, classes}=props;
+            {changeBGonHover, title='details', content, classes, fsize='medium'}=props;
 
         return(
             <div
-        className={cx('f_', classes)}
+        className={cx(`f-${FontSize[fsize]}`, classes)}
         title={title}
       >
         {content}

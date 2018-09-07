@@ -17,7 +17,7 @@ class Scroller extends React.Component{
 		const {classes, renderTextOnly, renderImageOnly } = this.props,
 			{content=[]} = this.state;
 
-		return (<Slider>
+		return (<Slider className="slider">
 			{content.map((article, index) => (<div key={index}>
 			<div className='scroller-text'>
 				<h2>{article.title}</h2>

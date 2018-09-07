@@ -13,15 +13,15 @@ const scroller_data = [
 	{
 		title: 'Darsan Parsana',
 		description: 'this is dap',
-		iname: 'dap_pp'
+		iname: 'dap'
 	}, {
 		title: 'Frontend Developer',
 		description: 'dap, this is',
-		iname: 'triund'
+		iname: 'javascript'
 	},{
 		title: 'Machine Learning Engineer',
 		description: 'this is dap',
-		iname: 'dap_pp'
+		iname: 'dl'
 	}
 ];
 
