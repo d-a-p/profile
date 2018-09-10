@@ -26,38 +26,48 @@ const scroller_data = [
 ];
 
 const timeline_data = [{
-	axisdata : {
-		icn:'uni_cap',
-		icnclr: 'blue',
-		time:'2013-2017',
-		position:'left'
-		},
-		content :{
-			title:'B.Tech ICT',
-			text:'',
-			links:[{
-				name:'resume',
-				url:'https://d-a-p.github.io/profile'
-			}],
-			tags:['cs', 'ML', 'DL']
-		}
-	}, {
 	axisdata: {
 		icn     : 'university',
 		icnclr  : 'blue',
-		time    : '2013-2017',
+		time    : "June'18 - ongoing",
 		position: 'right'
 	},
 	content : {
-		title: 'B.Tech ICT',
+		title: 'Research Assistant',
+		text : '',
+		links: [],
+		tags : ['DL', 'Research']
+	}
+}, {
+	axisdata: {
+		icn     : 'programming',
+		icnclr  : 'pink',
+		time    : "Nov'17 - May'18",
+		position: 'left'
+	},
+	content : {
+		title: 'Machine Learning Engineer',
 		text : '',
 		links: [{
-			name: 'resume',
+			name: 'cs231n',
 			url : 'https://d-a-p.github.io/profile'
 		}],
-		tags : ['cs', 'ML', 'DL']
+		tags : ['ML', 'DL', 'Freelance']
 	}
-}
+}, {
+	axisdata : {
+		icn:'website',
+		icnclr: 'blue',
+		time:"Jan'17 - Feb'18",
+		position:'right'
+		},
+		content :{
+			title:'Product Developer',
+			text:'',
+			links:[],
+			tags:['ES6', 'React', 'Redux']
+		}
+	}
 ];
 
 const right_pdata = {
