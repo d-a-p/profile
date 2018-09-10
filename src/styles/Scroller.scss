@@ -1,8 +1,15 @@
 .slider{
   height: 40rem;
 
+  .scroller-tile{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+
   .scroller-text{
     position: absolute;
+    align-self: flex-start; //remove this for under-dev status only
   }
 
 }

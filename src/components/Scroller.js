@@ -18,7 +18,7 @@ class Scroller extends React.Component{
 			{content=[]} = this.state;
 
 		return (<Slider className="slider">
-			{content.map((article, index) => (<div key={index}>
+			{content.map((article, index) => (<div className="scroller-tile" key={index}>
 			<div className='scroller-text'>
 				<h2>{article.title}</h2>
 				<div>{article.description}</div>
