@@ -8,7 +8,7 @@ import cx from 'classnames';
 export const Header = ({title, showHeaderUnderLine, fsize}) => (
     <Text content={title}
           title={title}
-          classes={cx('ttl-heavy', {'ttl-b-bdr pb': showHeaderUnderLine})}
+          classes={cx('ttl-heavy wfont', {'ttl-b-bdr pb': showHeaderUnderLine})}
           fsize={fsize}
     />
 );
@@ -16,12 +16,12 @@ export const Header = ({title, showHeaderUnderLine, fsize}) => (
 class Card extends React.Component{
 
     render(){
-        const {data, title, hideHeader, hideHeaderUL} = this.props;
-        return(<div className="card-data wide full-width default mb2 mt2 tc">
+        const {data, title, hideHeader, hideHeaderUL, propclass} = this.props;
+        return(<div className={cx("card-data wide default mb2 mt2 tc", propclass)}>
             {!hideHeader && (
                 <Header fsize="large" className={cx('card-header')} title={title} showHeaderUnderLine={!hideHeaderUL}/>
             )}
-            <Text className={cx('card-text')} content={data} title={title} classes={cx('mt')}/>
+            <Text  content={data} title={title} classes={cx('mt wfont abt-stls')}/>
         </div>);
     }
 

@@ -6,7 +6,7 @@ class ImageRenderer extends React.Component{
 	render(){
 		const {iname='dap_pp', classes} = this.props,
 			isrc = pathToImages(`./${iname}.jpg`, true);
-		return (<img src={isrc} alt={iname} />);
+		return (<img src={isrc} alt={iname} className='full-width'/>);
 	}
 }
 

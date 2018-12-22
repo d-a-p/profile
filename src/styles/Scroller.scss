@@ -9,7 +9,16 @@
 
   .scroller-text{
     position: absolute;
-    align-self: flex-start; //remove this for under-dev status only
+    //align-self: flex-start; //remove this for under-dev status only
+    top:10%;
+    left:15%;
+    width:40%;
+    .scoller-header{
+      font-size: 5rem;
+    }
+    .scoller-dtls{
+      font-size: 1.8rem;
+    }
   }
 
 }

@@ -1,6 +1,14 @@
 body{
   margin:0;
   padding:0;
+  background: #191A1B;
+  font-size: 22px;
+  font-family: "Lato", sans-serif;
+  overflow-x: hidden;
+}
+
+.disabled{
+  display: none !important; //to remove arrow in scroller
 }
 
 .default{
@@ -8,8 +16,17 @@ body{
   color: black;
 }
 
+.no-dec{
+  text-decoration: none;
+  color:inherit;
+}
+
 .tc{
   text-align: center;
+}
+
+.wfont{
+  color:white
 }
 
 .full-width{

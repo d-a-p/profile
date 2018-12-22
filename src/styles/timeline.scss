@@ -1,10 +1,16 @@
 .dark-bcg{
-  background-color: darkgray;
+  //background-color: #138cc9;
+  background-image: linear-gradient(#19191a, #138cc9, #138cc9, #19191a);
 
   .vertical-timeline-element-icon{
     display: flex;
     justify-content: space-evenly;
   }
+
+  .vertical-timeline-element-date {
+     color: white;
+     font-weight: bold;
+   }
 
   .icon{
     //display: flex;
@@ -15,9 +21,11 @@
     width: 2.4rem;
     height: 2.4rem;
 
-    fill: white;
-    stroke: white;
     stroke-width: 0.3rem;
   }
+}
+
+.vertical-timeline::before{
+  background-image: linear-gradient(#19191a, white, white, white,#19191a);
 }
 

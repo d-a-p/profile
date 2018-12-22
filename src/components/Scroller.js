@@ -20,8 +20,8 @@ class Scroller extends React.Component{
 		return (<Slider className="slider">
 			{content.map((article, index) => (<div className="scroller-tile" key={index}>
 			<div className='scroller-text'>
-				<h2>{article.title}</h2>
-				<div>{article.description}</div>
+				<h2 className="scoller-header mb mt">{article.title}</h2>
+				<div className="scoller-dtls">{article.description}</div>
 			</div>
 			<ImageRenderer iname={article.iname} />
 		</div>))}

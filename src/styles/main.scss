@@ -1,6 +1,6 @@
 
-.cr{
-    color: green;
+.cg{
+    color: lightgrey;
 }
 
 /////////////====================== font =====================/////////////////////
@@ -31,7 +31,7 @@
 ///////////======================== border ==========================//////////////////
 
 .ttl-b-bdr{
-    border-bottom: 1px solid;
+    border-bottom: 1px solid dimgrey;
 }
 
 
@@ -66,9 +66,24 @@
 }
 
 .mt2{
-  margin-top: 2rem;
+  margin-top: 2rem !important;
 }
 
 .mb2{
-  margin-bottom: 2rem;
+  margin-bottom: 2rem !important;
+}
+
+////////============================= specific styles=================================/////
+.abt-stls{
+  width: 95%;
+  margin: auto;
+}
+
+.cntc-row{
+  display: flex;
+  flex-flow: row;
+  justify-content: space-evenly;
+}
+
+.cntk-stls{
 }
