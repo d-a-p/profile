@@ -7,6 +7,11 @@ body{
   overflow-x: hidden;
 }
 
+#root{
+  display: flex;
+  flex-flow: column;
+}
+
 .disabled{
   display: none !important; //to remove arrow in scroller
 }

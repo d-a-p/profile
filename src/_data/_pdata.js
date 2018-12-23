@@ -31,7 +31,7 @@ const timeline_data = [{
 		title: 'Research Assistant',
 		text : '',
 		links: [],
-		tags : ['DL', 'Research', 'Bayesian Mixture']
+		tags : ['DL', 'Research', 'Biotech', 'Classification', 'Bayesian Mixture', 'Semantic Segmentation', 'Gaussian Process']
 	}
 }, {
 	axisdata: {
@@ -47,7 +47,7 @@ const timeline_data = [{
 			name: 'cs231n',
 			url : 'https://github.com/d-a-p/cs231_18_deep-learning'
 		}],
-		tags : ['ML', 'DL', 'Freelance']
+		tags : ['ML', 'DL', 'Freelance', 'Computer Vision', 'VAE', 'GAN', 'LSTM', 'RNN']
 	}
 }, {
 	axisdata : {
@@ -59,15 +59,21 @@ const timeline_data = [{
 		content :{
 			title:'Product Developer',
 			text:'',
-			links:[],
-			tags:['ES6', 'React', 'Redux']
+			links:[{
+				name: 'Sprinklr',
+				url : 'https://www.sprinklr.com/'
+			}],
+			tags:['ES6', 'React', 'Redux', 'Javascript']
 		}
 	}
 ];
 
 const right_pdata = {
-	"about": "He graduated with Bachelors in ICT with a major in computer science at DA-IICT, Gandhinagar, India. Prior to joining BEES Lab, he worked as a Product developer at Sprinklr at Gurugram in the field of web development. His interests lie in machine learning, image processing, and web development. He is passionate about machine learning/deep learning and its application, especially application related to computer vision and Language Processing/Understanding. Darshan’s LinkedIn Profile",
+	"about": "He graduated with Bachelors in ICT with a major in computer science at DA-IICT, Gandhinagar, India." +
+		" His interests lie in Machine learning, Statistics, and web development. He is passionate about machine" +
+		" learning/deep learning and its application, especially related to computer vision and Language Processing/Understanding.",
 	"contact": "darshanparsanadap@gmail.com",
+
 	"skills":  {"cpp":5, "python":7, "javascript":8, "react":8},
     "project":[
         {
@@ -80,4 +86,45 @@ const right_pdata = {
     ]
 };
 
-export default {head_card, right_pdata, scroller_data, timeline_data};
+const skills = {
+	data: [{
+		'C++': 7, Python: 10, Tensorflow: 9, Javascript: 8, React: 9
+	}],
+	options:{
+		width: 500,
+		height: 500,
+		margin: {top: 20, left: 20, right: 20, bottom: 20},
+		r: 250,
+		max: 11,
+		fill: "#1098dc91",
+		stroke: "#138cc9",
+		animate: {
+			type: 'oneByOne',
+			duration: 500,
+			fillTransition:3
+		},
+		label: {
+			fontFamily: 'sans-serif',
+			fontSize: 14,
+			bold: true,
+			color: '#b3b3b3'
+		}
+	}
+};
+
+const topic_cloud = [
+	{ value: "Bayesian", count: 38 }, { value: "Gaussian", count: 25 },
+	{ value: "Dirichlet", count: 27 }, { value: "IG", count: 25 },
+	{ value: "DMM", count: 23 }, { value: "CRP", count: 11 },
+	{ value: "Polya Urn", count: 11 }, { value: "IBP", count: 20 },
+	{ value: "Gibbs sampling", count: 22 }, { value: "Finite mixture", count: 27 },
+	{ value: "Gaussian Process", count: 25 }, { value: "Nonparametrics", count: 33 },
+	{ value: "Prior", count: 17 }, { value: "Hypothysis", count: 17 },
+	{ value: "Dirichlet Process", count: 22 }, { value: "MCMC", count: 30 },
+	{ value: "Metropolis", count: 17 }, { value: "Gamma Process", count: 21 },
+	{ value: "Hierarchical", count: 29 },{ value: "Distribution", count: 7 }
+];
+
+
+
+export default {head_card, right_pdata, scroller_data, timeline_data, skills, topic_cloud};

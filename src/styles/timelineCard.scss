@@ -5,6 +5,7 @@
 
   .tags{
     display: flex;
+    flex-flow: wrap;
 
     .tag{
       background-color: #ececec;
@@ -16,6 +17,7 @@
       text-align: center;
       margin: 2px;
       margin-bottom: 0px;
+      height: 100%;
     }
   }
 

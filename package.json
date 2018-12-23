@@ -71,6 +71,8 @@
   },
   "dependencies": {
     "npm": "^6.1.0",
-    "react-animated-slider": "^1.1.3"
+    "react-animated-slider": "^1.1.3",
+    "react-pathjs-chart": "^0.3.5",
+    "react-tagcloud": "^1.3.1"
   }
 }

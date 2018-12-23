@@ -14,13 +14,17 @@
 }
 
 .f-sm{
-    font-size: 12px;
+    font-size: 16px;
 }
 
 .f-md{
     font-size: 20px;
 }
 
+
+.link-font{
+  font-family: monospace;
+}
 
 
 .ttl-heavy{
@@ -85,5 +89,32 @@
   justify-content: space-evenly;
 }
 
-.cntk-stls{
+.skill-row{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+//.tag-cloud{
+//  width: 30%;
+//}
+
+.LI-profile-badge{
+  align-self: center;
+  @extend .mb2
+}
+
+.topic-content{
+  width: 30%;
+}
+
+.skill-label{
+  color: white;
+  font-size: 2.5rem;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+
+}
+
+@keyframes blinker {
+  50% { opacity: 0.1; }
 }
