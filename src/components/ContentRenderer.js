@@ -26,7 +26,7 @@ export default function SkillsandTopic(props) {
 		<div className="skill-row mt2">
 			<div className='skill-content'>
 				<div className='skill-label mb ttl-b-bdr'>Skills</div>
-				<Radar data={cData.data} options={cData.options} />
+				<Radar data={cData.data} options={cData.options} replay/>
 			</div>
 			<div className= 'topic-content'>
 				<div className='skill-label mb ttl-b-bdr'>Statisctics</div>

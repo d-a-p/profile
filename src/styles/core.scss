@@ -7,6 +7,14 @@ body{
   overflow-x: hidden;
 }
 
+canvas{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: auto;
+  height: auto;
+}
+
 #root{
   display: flex;
   flex-flow: column;

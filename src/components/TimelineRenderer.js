@@ -1,6 +1,7 @@
 import React from 'react';
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import TimelineCard from './TimelineCard';
+import '../particles'
 import Icon from './Icon';
 import 'react-vertical-timeline-component/style.min.css';
 import '../styles/timeline.scss'
@@ -18,6 +19,9 @@ iconOnClick
  */
 
 class TimelineRenderer extends React.Component{ //change timelinedata classname
+
+
+
 
 	render(){
 

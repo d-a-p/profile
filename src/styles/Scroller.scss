@@ -10,15 +10,32 @@
   .scroller-text{
     position: absolute;
     //align-self: flex-start; //remove this for under-dev status only
-    top:10%;
-    left:15%;
-    width:40%;
+    top:0%;
+    left:0%;
+    width:60%;
+    background-image: linear-gradient(to right,  #19191a, #19191a87, #ffffff00);
+    height: 100%;
+
     .scoller-header{
       font-size: 4.5rem;
     }
     .scoller-dtls{
       font-size: 1.8rem;
+      position: absolute;
+      top: 38%;
+      left: 9%;
+      width: 67%;
+      margin: 0;
+      color: white;
+    }
+  }
+  @media all and (max-width: 1487px) {
+    .scoller-header{
+      margin-left: 6%;
     }
   }
 
+
 }
+
+

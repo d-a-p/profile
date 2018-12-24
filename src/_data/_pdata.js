@@ -30,7 +30,10 @@ const timeline_data = [{
 	content : {
 		title: 'Research Assistant',
 		text : '',
-		links: [],
+		links: [{
+			name: 'Bees Lab',
+			url : 'http://beeslab.dese.iisc.ac.in/project-staff/'
+		}],
 		tags : ['DL', 'Research', 'Biotech', 'Classification', 'Bayesian Mixture', 'Semantic Segmentation', 'Gaussian Process']
 	}
 }, {
@@ -74,7 +77,6 @@ const right_pdata = {
 		" learning/deep learning and its application, especially related to computer vision and Language Processing/Understanding.",
 	"contact": "darshanparsanadap@gmail.com",
 
-	"skills":  {"cpp":5, "python":7, "javascript":8, "react":8},
     "project":[
         {
             "name":"abc detector",
@@ -90,6 +92,7 @@ const skills = {
 	data: [{
 		'C++': 7, Python: 10, Tensorflow: 9, Javascript: 8, React: 9
 	}],
+	replay:'True',
 	options:{
 		width: 500,
 		height: 500,
@@ -99,7 +102,7 @@ const skills = {
 		fill: "#1098dc91",
 		stroke: "#138cc9",
 		animate: {
-			type: 'oneByOne',
+			type: 'delayed',
 			duration: 500,
 			fillTransition:3
 		},
