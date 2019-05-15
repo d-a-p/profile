@@ -27,12 +27,20 @@
 
 .vertical-timeline::before{
   background-image: linear-gradient(#19191a, white, white, white,#19191a);
-  height: 99.5%;
+  height: 98%;
 }
 
 .vertical-timeline{
   margin-top: 0px;
   margin-bottom: 0px;
+}
+.vertical-timeline-element{
+  margin: 2rem 0;
+}
+.vertical-timeline-element-content{
+  padding: 0.7rem 1.5rem;
+  background: #000000ad;
+  box-shadow: 0 3px 0 #5656566e;
 }
 
 

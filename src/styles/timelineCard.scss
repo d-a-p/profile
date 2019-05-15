@@ -1,7 +1,6 @@
 .timeline-card{
   display:flex;
   flex-flow: column;
-  background-color: white;
 
   .tags{
     display: flex;
@@ -23,11 +22,13 @@
 
   .title{
     margin: 0.7rem 0.4rem;
+    color: #189cde;
   }
 
   .text{
     margin: 0.4rem;
     margin-top: 0;
+    color: #189cde;
   }
 
   .links{

@@ -36,6 +36,64 @@ const timeline_data = [{
 		}],
 		tags : ['DL', 'Research', 'Biotech', 'Classification', 'Bayesian Mixture', 'Semantic Segmentation', 'Gaussian Process']
 	}
+},{
+	axisdata: {
+		icn     : 'robot',
+		icnclr  : 'blue',
+		time    : "Apr'18",
+		position: 'left'
+	},
+	content : {
+		title: 'Library for AD5933',
+		text : 'developed python library for chip AD5933',
+		links: [{
+			name: 'AD5933',
+			url : 'https://github.com/d-a-p/AD5933_python'
+		}],
+		tags : ['Library', 'Electronics']
+	}
+},{
+	axisdata: {
+		icn     : 'programming',
+		icnclr  : 'blue',
+		time    : "Feb'18",
+		position: 'right'
+	},
+	content : {
+		title: 'Genetic Algorithm(GA)',
+		text : 'TSP(traveling salesmen problem) with GA and ant-hill optimization in python',
+		links: [{
+			name: 'TSP',
+			url : 'https://github.com/d-a-p/genetic_algo'
+		}],
+		tags : ['GA', 'Optimization']
+	}
+},{
+	axisdata: {
+		icn     : 'programming',
+		icnclr  : 'blue',
+		time    : "Aug'18",
+		position: 'left'
+	},
+	content : {
+		title: 'Feature Specific generating Faces',
+		text : '',
+		links: [],
+		tags : ['GPyopt', 'VAE', 'GPy']
+	}
+},{
+	axisdata: {
+		icn     : 'programming',
+		icnclr  : 'blue',
+		time    : "July'18",
+		position: 'right'
+	},
+	content : {
+		title: 'Application of Sequence models',
+		text : 'Emojify, Jazz improvisation with LSTM',
+		links: [],
+		tags : ['LSTM', 'NLP']
+	}
 }, {
 	axisdata: {
 		icn     : 'programming',
@@ -68,7 +126,23 @@ const timeline_data = [{
 			}],
 			tags:['ES6', 'React', 'Redux', 'Javascript']
 		}
+},{
+	axisdata: {
+		icn     : 'programming',
+		icnclr  : 'blue',
+		time    : "Oct - Nov'15",
+		position: 'left'
+	},
+	content : {
+		title: 'Parallelized Gaussian Blurring using CUDA',
+		text : '',
+		links: [{
+			name: 'Presentation',
+			url : 'https://www.slideshare.net/DarshanParsana/gaussian-image-blurring-in-cuda-c?qid=6a05c0dd-15f9-48b2-84db-665113b26b05&v=&b=&from_search=1'
+		}],
+		tags : ['CUDA', 'C++']
 	}
+}
 ];
 
 const right_pdata = {
