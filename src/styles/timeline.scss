@@ -18,10 +18,17 @@
 
     position: initial;
     margin: auto;
-    width: 2.4rem;
-    height: 2.4rem;
 
     stroke-width: 0.3rem;
+  }
+}
+
+@media all and (min-width: 1170px) {
+  .dark-bcg{
+    .icon{
+      width: 2.4rem;
+      height: 2.4rem;
+    }
   }
 }
 
@@ -36,11 +43,22 @@
 }
 .vertical-timeline-element{
   margin: 2rem 0;
+  &.vertical-timeline-element--right .vertical-timeline-element-content::before{
+    border-right-color: #00000075;
+  }
+  &.vertical-timeline-element--left .vertical-timeline-element-content::before{
+    border-left-color: #00000075;
+  }
 }
 .vertical-timeline-element-content{
   padding: 0.7rem 1.5rem;
   background: #00000075;
   box-shadow: 0 3px 0 #5656566e;
+  //&::before{
+  //  border-left-color: #00000075;
+  //}
+
 }
+
 
 

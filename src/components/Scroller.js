@@ -3,6 +3,7 @@ import Slider from 'react-animated-slider';
 import 'react-animated-slider/build/horizontal.css';
 import '../styles/Scroller.scss'
 import ImageRenderer from "./ImageRenderer";
+import Icon from './Icon';
 import cx from 'classnames';
 
 const getContent = (article, index) => ({});
@@ -23,6 +24,8 @@ class Scroller extends React.Component{
 			<div className='scroller-text'>
 				<div className='header'><h2 className={cx("scoller-header mb mt", headerClass)}>{article.title}</h2></div>
 				<div className="scoller-dtls">{article.description}</div>
+				<div className='social-icns'>
+					<a href='https://www.facebook.com/d4dap' target='None'><Icon name='fb'/></a></div>
 			</div>
 			<ImageRenderer iname={article.iname} />
 		</div>))}
