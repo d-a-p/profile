@@ -12,8 +12,8 @@ const head_card = {
 const scroller_data = [
 	{
 		title: 'Darshan Parsana',
-		description: 'Hi, and welcome to my homepage! \n' +
-			'I\'m Darshan Parsana, \n' +
+		description: 'Hi, and welcome to my profile... \n' +
+			'I\'m Darshan Parsana. \n' +
 			'Focused at Statistics and Machine Learning.\n' +
 			'Ex-IIsc researcher. currently working with EY in NLP sector.',
 		iname: 'scaled_dap'
@@ -65,8 +65,14 @@ const timeline_data = [{
 		links: [{
 			name: 'Bees Lab',
 			url : 'http://beeslab.dese.iisc.ac.in/project-staff/'
+		},{
+			name: 'paper on breast cancer',
+			url : 'https://www.tandfonline.com/doi/full/10.1080/05704928.2020.1749651'
+		},{
+			name: 'ack on e-nose',
+			url : 'https://iopscience.iop.org/article/10.1088/1752-7163/aafc77'
 		}],
-		tags : ['DL', 'Research', 'Biotech', 'Classification', 'Bayesian Mixture', 'Semantic Segmentation', 'Gaussian Process']
+		tags : ['DL', 'Research', 'Biotech', 'Classification', 'Bayesian Mixture', 'Semantic Segmentation', 'Gaussian Process', 'Health care']
 	}
 },{
 	axisdata: {
@@ -179,15 +185,14 @@ const timeline_data = [{
 
 const right_pdata = {
 	"about": "He graduated with Bachelors in ICT with a major in computer science at DA-IICT, Gandhinagar, India." +
-		" His interests lie in Machine learning, Statistics, and web development. He is passionate about machine" +
-		" learning/deep learning and its application, especially related to computer vision and Language Processing/Understanding." +
-		" He has published few research paper in healthcare (major using machine learning) sector with IISc during his research period in 2018/19.",
+		" His interests lie in Machine learning, Statistics, and web development. He is passionate about machine learning applications and its social empact." +
+		" He has published few research papers in healthcare (major using machine learning) sector with IISc-India during his research period in 2018/19.",
 	"contact": "darshanparsanadap@gmail.com",
 
     "project":[
         {
             "name":"abc detector",
-            "description":"The many different conceptions of God, and competing claims as to God's characteristics, aims, and actions, have led to the development of ideas of omnitheism, pandeism,[8] or a perennial philosophy, which postulates that there is one underlying theological truth, of which all religions express a partial understanding, and as to which \"the devout in the various great world religions are in fact worshipping that one God, but through different, overlapping concepts or mental images of Him.",
+            "description":"The many different conceptions of God.",
             "link":"abc.com",
             "timestamp":[123424123, 12432124],
         },
@@ -197,7 +202,7 @@ const right_pdata = {
 
 const skills = {
 	data: [{
-		'C++': 5, Python: 10, Tensorflow: 10, Javascript: 7, React: 8
+		Python: 10, Tensorflow: 10, Javascript: 7,  'C++': 7, React: 8,
 	}],
 	replay:'True',
 	options:{

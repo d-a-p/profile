@@ -7,7 +7,8 @@
     flex-flow: wrap;
 
     .tag{
-      background-color: #ececec;
+      color: white;
+      background-color: #535353;
       padding: 3px 6px;
       //font-weight: normal;
       border-radius: 0.7rem;
@@ -38,7 +39,7 @@
     .link{
       cursor: pointer;
       text-decoration: none;
-      background-color: lightgrey;
+      background-color: #e1e1e1;
       padding: 0.4rem;
       font-weight: bold;
       border-radius: 0.3rem;
@@ -47,7 +48,7 @@
       margin: 2px;
       margin-bottom: 0px;
       font-size: 1rem;
-      color: #4e7082;
+      color: #004a74;
 
       &:active{
         background-color: grey;
