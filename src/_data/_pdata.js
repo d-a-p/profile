@@ -2,7 +2,7 @@
 const head_card = {
     "role": "machine learning engineer / front end developer",
     "name": "Darshan Parsana",
-    "email": "darshan.dap2@abc.com",
+    "email": "darshanparsanadap@gmail.com",
     "contact": "7405851415",
     "skype_id": "darshan_parsana",
     "img":"abc.src",
@@ -15,16 +15,48 @@ const scroller_data = [
 		description: 'Hi, and welcome to my homepage! \n' +
 			'I\'m Darshan Parsana, \n' +
 			'Focused at Statistics and Machine Learning.\n' +
-			'Currently doing research at IISc',
+			'Ex-IIsc researcher. currently working with EY in NLP sector.',
 		iname: 'scaled_dap'
 	}
 ];
 
 const timeline_data = [{
 	axisdata: {
+		icn     : 'programming',
+		icnclr  : 'blue',
+		time    : "Feb'19 - ongoing",
+		position: 'right'
+	},
+	content : {
+		title: 'Senior Machine Learning developer and Researcher',
+		text : '',
+		links: [{
+			name: 'EY (Ernst & Young)',
+			url : 'https://www.ey.com/en_us'
+		}],
+		tags : ['DL', 'Research', 'NLP', 'Unstructured Data', 'Leading']
+	}
+},{
+	axisdata: {
+		icn     : 'programming',
+		icnclr  : 'blue',
+		time    : "June'19 - Feb'20",
+		position: 'left'
+	},
+	content : {
+		title: 'Machine Learning Researcher and developer',
+		text : '',
+		links: [{
+			name: 'Spotmentor Technologies',
+			url : 'https://www.spotmentor.com'
+		}],
+		tags : ['DL', 'Research', 'NLP', 'Unstructured Data', 'HR tech', 'Leading']
+	}
+},{
+	axisdata: {
 		icn     : 'university',
 		icnclr  : 'blue',
-		time    : "June'18 - ongoing",
+		time    : "June'18 - June'19",
 		position: 'right'
 	},
 	content : {
@@ -148,7 +180,8 @@ const timeline_data = [{
 const right_pdata = {
 	"about": "He graduated with Bachelors in ICT with a major in computer science at DA-IICT, Gandhinagar, India." +
 		" His interests lie in Machine learning, Statistics, and web development. He is passionate about machine" +
-		" learning/deep learning and its application, especially related to computer vision and Language Processing/Understanding.",
+		" learning/deep learning and its application, especially related to computer vision and Language Processing/Understanding." +
+		" He has published few research paper in healthcare (major using machine learning) sector with IISc during his research period in 2018/19.",
 	"contact": "darshanparsanadap@gmail.com",
 
     "project":[
@@ -164,7 +197,7 @@ const right_pdata = {
 
 const skills = {
 	data: [{
-		'C++': 7, Python: 10, Tensorflow: 9, Javascript: 8, React: 9
+		'C++': 5, Python: 10, Tensorflow: 10, Javascript: 7, React: 8
 	}],
 	replay:'True',
 	options:{
