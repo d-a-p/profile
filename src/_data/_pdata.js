@@ -15,7 +15,7 @@ const scroller_data = [
 		description: 'Hi, and welcome to my profile... \n' +
 			'I\'m Darshan Parsana. \n' +
 			'Focused at Statistics and Machine Learning.\n' +
-			'Ex-IIsc researcher. currently working with EY in NLP sector.',
+			'Ex-IIsc researcher. currently working with Zendrive in ML/Telematics sector.',
 		iname: 'scaled_dap'
 	}
 ];
@@ -24,7 +24,23 @@ const timeline_data = [{
 	axisdata: {
 		icn     : 'programming',
 		icnclr  : 'blue',
-		time    : "Feb'19 - ongoing",
+		time    : "Oct'21 - ongoing",
+		position: 'left'
+	},
+	content : {
+		title: 'Lead Data Scientist',
+		text : '',
+		links: [{
+			name: 'Zendrive Inc',
+			url : 'https://www.zendrive.com/'
+		}],
+		tags : ['ML', 'NLP', 'Telematics', 'Raw sensor data', 'Leading', 'ML', 'Statistics']
+	}
+},{
+	axisdata: {
+		icn     : 'programming',
+		icnclr  : 'blue',
+		time    : "Feb'20 - Oct'21",
 		position: 'right'
 	},
 	content : {
@@ -117,7 +133,7 @@ const timeline_data = [{
 		title: 'Feature Specific generating Faces',
 		text : '',
 		links: [],
-		tags : ['GPyopt', 'VAE', 'GPy']
+		tags : ['GPyopt', 'VAE', 'GPy', 'Keras']
 	}
 },{
 	axisdata: {
@@ -130,7 +146,7 @@ const timeline_data = [{
 		title: 'Application of Sequence models',
 		text : 'Emojify, Jazz improvisation with LSTM',
 		links: [],
-		tags : ['LSTM', 'NLP']
+		tags : ['LSTM', 'NLP', 'RNN', 'Keras']
 	}
 }, {
 	axisdata: {
@@ -146,7 +162,7 @@ const timeline_data = [{
 			name: 'cs231n',
 			url : 'https://github.com/d-a-p/cs231_18_deep-learning'
 		}],
-		tags : ['ML', 'DL', 'Freelance', 'Computer Vision', 'VAE', 'GAN', 'LSTM', 'RNN']
+		tags : ['ML', 'DL', 'Freelance', 'Computer Vision', 'VAE', 'GAN', 'LSTM', 'RNN', 'Keras']
 	}
 }, {
 	axisdata : {
@@ -184,9 +200,9 @@ const timeline_data = [{
 ];
 
 const right_pdata = {
-	"about": "He graduated with Bachelors in ICT with a major in computer science at DA-IICT, Gandhinagar, India." +
-		" His interests lie in Machine learning, Statistics, and web development. He is passionate about machine learning applications and its social empact." +
-		" He has published few research papers in healthcare (major using machine learning) sector with IISc-India during his research period in 2018/19.",
+	"about": "He graduated with a Bachelor's degree in ICT, majoring in Computer Science, from DA-IICT, India." +
+		" His interests include machine learning, generative AI, and statistics, and he is passionate about the social impact of AI applications." +
+		" During his research period in 2018/19, he published several research papers in the healthcare sector, primarily focusing on machine learning, at IISc, India.",
 	"contact": "darshanparsanadap@gmail.com",
 
     "project":[
@@ -202,7 +218,7 @@ const right_pdata = {
 
 const skills = {
 	data: [{
-		Python: 10, Tensorflow: 10, Javascript: 7,  'C++': 7, React: 8,
+		Python: 10, Tensorflow: 8, Javascript: 7,  'C++': 7, Java: 7,
 	}],
 	replay:'True',
 	options:{
@@ -228,16 +244,15 @@ const skills = {
 };
 
 const topic_cloud = [
-	{ value: "Bayesian", count: 38 }, { value: "Gaussian", count: 25 },
-	{ value: "Dirichlet", count: 27 }, { value: "IG", count: 25 },
-	{ value: "DMM", count: 23 }, { value: "CRP", count: 11 },
-	{ value: "Polya Urn", count: 11 }, { value: "IBP", count: 20 },
-	{ value: "Gibbs sampling", count: 22 }, { value: "Finite mixture", count: 27 },
-	{ value: "Gaussian Process", count: 25 }, { value: "Nonparametrics", count: 33 },
-	{ value: "Prior", count: 17 }, { value: "Hypothysis", count: 17 },
-	{ value: "Dirichlet Process", count: 22 }, { value: "MCMC", count: 30 },
-	{ value: "Metropolis", count: 17 }, { value: "Gamma Process", count: 21 },
-	{ value: "Hierarchical", count: 29 },{ value: "Distribution", count: 7 }
+	{ value: "Bayesian", count: 38 }, { value: "Gaussian", count: 22 },
+	{ value: "RoPE", count: 22 },{ value: "Logistic", count: 22 },
+	{ value: "DMM", count: 10 },{ value: "Diffsion", count: 21 },
+	{ value: "Gibbs sampling", count: 12 }, { value: "Finite mixture", count: 17 },
+	{ value: "Gaussian Process", count: 25 }, { value: "Nonparametrics", count: 20 },
+	{ value: "Mixture of Experts", count: 27 },{ value: "Attention", count: 30 },
+	{ value: "Dirichlet Process", count: 12 }, { value: "MCMC", count: 20 },
+	{ value: "Gamma Process", count: 11 },{ value: "Distribution", count: 7 },
+	{ value: "Survival Analysis", count: 20 },{ value: "Transformers", count: 30 },
 ];
 
 
